@@ -1,0 +1,58 @@
+.mainPoke{
+    background-image: url(./imagenes/bosque.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.pokedexContainer{
+    background: linear-gradient(to bottom, rgb(189, 4, 4), rgb(87, 2, 2));
+    border-radius: 20px;
+    border:solid;
+    height: 500px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pokedexScreen{
+    background: linear-gradient(to bottom, black, white);
+    border: solid;
+    border-color: rgb(52, 69, 54);
+    border-width: 40px;
+    border-radius: 20px;
+    height: 450px;
+    width: 400px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.statsPokemon{
+    border: solid;
+    height: 30%;
+    width: 100%;
+}
+.imgPokemon{
+    height: 70%;
+    width: 100%;
+    border: solid;
+}
+.pokedexButtons{
+    border-left-color: black;
+    border-left-style: solid;
+    padding-left: 80px;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.idText{
+    display: flex;
+    justify-content: center;
+}
+         
+
