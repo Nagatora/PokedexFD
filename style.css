@@ -18,7 +18,7 @@
     align-items: center;
 }
 .pokedexScreen{
-    background: linear-gradient(to bottom, black, white);
+    background: linear-gradient(to bottom, rgb(67, 2, 106), rgb(236, 171, 171));
     border: solid;
     border-color: rgb(52, 69, 54);
     border-width: 40px;
@@ -39,6 +39,15 @@
     height: 70%;
     width: 100%;
     border: solid;
+}
+img{
+    width: 100%;
+    height: 260px;
+}
+.statsPokemon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .pokedexButtons{
     border-left-color: black;
