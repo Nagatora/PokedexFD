@@ -19,18 +19,22 @@
     <main class="mainPoke">
         <div class="pokedexContainer">
             <div class="pokedexScreen">
-                <div class="imgPokemon"></div>
+                <div class="imgPokemon resetClass">
+                    <img src="  " id="img" alt="">
+                </div>
                 <div class="statsPokemon">
-                    
+                    <h4 id="name"></h4>
+                    <h4 id="id"></h4>
+                    <h4 id="type"></h4>
                 </div>
             </div>
             <aside class="pokedexButtons">
-                <input placeholder="Search Pokémon or ID" id="nameOrID" type="text">
+                <input placeholder="Search Pokémon or ID" value="" id="nameOrID" type="text">
                 <button type="button" id="buttonSearch">Search</button>
                 <button id="buttonRandom">Random Pokémon</button>
                 <h5 class="idText">ID 1+/1-</h5>
-                <button id="+">+</button>
-                <button id="-">-</button>
+                <button id="sum">+</button>
+                <button id="subtraction">-</button>
                 <button type="submit" onclick="window.location.reload();" id="buttonRestart">Restart</button>
             </aside>
         </div>
